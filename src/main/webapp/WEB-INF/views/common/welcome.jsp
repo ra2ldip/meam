@@ -1,7 +1,7 @@
 <%-- 
-    Document   : footer
-    Created on : 16 Dec, 2015, 12:23:02 PM
-    Author     : ratul
+    Document   : welcome
+    Created on : Jan 6, 2016, 12:07:10 PM
+    Author     : Administrator
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -12,6 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        © RAS
+        <h1>Welcome ${user}</h1>
+        
     </body>
 </html>

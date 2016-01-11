@@ -12,12 +12,13 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="shortcut icon" href="/images/RS.ico"> 
         <title><tiles:getAsString name="title"/></title>
-        
+        <script type="text/javascript" src="/scripts/jquery-2.1.4.js"></script>
+                <script type="text/javascript" src="/scripts/sdk.js"></script>
           <!--<link rel="stylesheet" type="text/css" href="/css/jquery.mobile-1.4.5.css" />-->
         <link rel="stylesheet" type="text/css" href="/css/jquery.mobile-1.4.5.min.css" />
         
         
-        <script type="text/javascript" src="/scripts/jquery-2.1.4.js"></script>
+        
      
         
         

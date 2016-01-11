@@ -37,9 +37,9 @@ public class SecurityFilter implements Filter {
         HttpServletResponse res = (HttpServletResponse) fres;
         String url = req.getRequestURI();
         
-        if ( url.startsWith("/css/") || url.startsWith("/images/") || url.startsWith("/scripts/")|| url.startsWith("/applets/") || url.startsWith("/eprocws/")||url.startsWith("/wordService/")||url.startsWith("/registration.meam.htm")) {
+        if ( url.startsWith("/css/") || url.startsWith("/images/") || url.startsWith("/scripts/")|| url.startsWith("/applets/") || url.startsWith("/eprocws/")||url.startsWith("/wordService/")||url.startsWith("/registration.meam.htm")||url.startsWith("/login.htm")) {
             // check if already logged in
-        }else if("/login.htm".equals(url) ) {
+        }else if("/welcome.htm".equals(url) ) {
             if (req.getSession().getAttribute("_user_meam_") != null) {
                 res.sendRedirect("/home.htm");
             }
