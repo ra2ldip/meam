@@ -1,7 +1,7 @@
-package org.rs.app.bankingdetails.dao;
+package org.rs.app.meam.bankingdetails.dao;
 
 import java.util.List;
-import org.rs.app.bankingdetails.UserBankAccount;
+import org.rs.app.meam.bankingdetails.UserBankAccount;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

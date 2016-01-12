@@ -1,8 +1,8 @@
-package org.rs.app.master.controller;
+package org.rs.app.meam.master.controller;
 
-import org.rs.app.master.UserMaster;
+import org.rs.app.meam.master.UserMaster;
 import org.rs.app.meam.common.MEAMException;
-import org.rs.app.master.dao.UserMasterRepo;
+import org.rs.app.meam.master.dao.UserMasterRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

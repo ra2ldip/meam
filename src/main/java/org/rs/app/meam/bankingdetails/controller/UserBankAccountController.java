@@ -1,4 +1,4 @@
-package org.rs.app.bankingdetails.controller;
+package org.rs.app.meam.bankingdetails.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -9,12 +9,12 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 import org.rs.app.meam.common.UserBankOptions;
-import org.rs.app.bankingdetails.PersonalTransaction;
-import org.rs.app.bankingdetails.UserBankAccount;
-import org.rs.app.bankingdetails.dao.BankMasterRepo;
-import org.rs.app.bankingdetails.dao.UserBankAccountRepo;
-import org.rs.app.bankingdetails.service.BankingHelper;
-import org.rs.app.master.UserMaster;
+import org.rs.app.meam.bankingdetails.PersonalTransaction;
+import org.rs.app.meam.bankingdetails.UserBankAccount;
+import org.rs.app.meam.bankingdetails.dao.BankMasterRepo;
+import org.rs.app.meam.bankingdetails.dao.UserBankAccountRepo;
+import org.rs.app.meam.bankingdetails.service.BankingHelper;
+import org.rs.app.meam.master.UserMaster;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Controller;

@@ -1,10 +1,10 @@
-package org.rs.app.bankingdetails.service;
+package org.rs.app.meam.bankingdetails.service;
 
 import java.math.BigDecimal;
 import java.util.Date;
 import java.util.List;
-import org.rs.app.bankingdetails.PersonalTransaction;
-import org.rs.app.bankingdetails.dao.BankDetailsMaintainer;
+import org.rs.app.meam.bankingdetails.PersonalTransaction;
+import org.rs.app.meam.bankingdetails.dao.BankDetailsMaintainer;
 
 /**
  *

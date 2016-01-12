@@ -1,9 +1,9 @@
-package org.rs.app.bankingdetails.dao;
+package org.rs.app.meam.bankingdetails.dao;
 
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.Date;
-import org.rs.app.bankingdetails.PersonalTransaction;
+import org.rs.app.meam.bankingdetails.PersonalTransaction;
 
 /**
  *

@@ -1,15 +1,15 @@
-package org.rs.app.bankingdetails.service;
+package org.rs.app.meam.bankingdetails.service;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import org.rs.app.meam.common.UserBankOptions;
-import org.rs.app.bankingdetails.BankMaster;
-import org.rs.app.bankingdetails.PersonalTransaction;
-import org.rs.app.bankingdetails.UserBankAccount;
+import org.rs.app.meam.bankingdetails.BankMaster;
+import org.rs.app.meam.bankingdetails.PersonalTransaction;
+import org.rs.app.meam.bankingdetails.UserBankAccount;
 
-import org.rs.app.bankingdetails.dao.BankMasterRepo;
-import org.rs.app.bankingdetails.dao.UserBankAccountRepo;
+import org.rs.app.meam.bankingdetails.dao.BankMasterRepo;
+import org.rs.app.meam.bankingdetails.dao.UserBankAccountRepo;
 
 /**
  *

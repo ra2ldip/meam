@@ -22,7 +22,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  * @author srini
  */
 @Configuration
-@EnableJpaRepositories(basePackages =  "org.rs.app")
+@EnableJpaRepositories(basePackages =  "org.rs.app.meam")
 @EnableTransactionManagement
 public class DataConfig {
 

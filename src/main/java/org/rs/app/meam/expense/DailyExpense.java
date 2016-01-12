@@ -1,4 +1,4 @@
-package org.rs.app.expense;
+package org.rs.app.meam.expense;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

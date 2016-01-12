@@ -1,4 +1,4 @@
-package org.rs.app.expense.controller;
+package org.rs.app.meam.expense.controller;
 
 import java.math.BigDecimal;
 import java.text.DateFormat;
@@ -9,9 +9,9 @@ import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 import org.rs.app.meam.common.ExpenseOptions;
 import org.rs.app.meam.common.JSONHelper;
-import org.rs.app.expense.DailyExpense;
-import org.rs.app.expense.dao.DailyExpenseDao;
-import org.rs.app.master.UserMaster;
+import org.rs.app.meam.expense.DailyExpense;
+import org.rs.app.meam.expense.dao.DailyExpenseDao;
+import org.rs.app.meam.master.UserMaster;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Controller;

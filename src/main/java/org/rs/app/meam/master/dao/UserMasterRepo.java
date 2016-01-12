@@ -1,6 +1,6 @@
-package org.rs.app.master.dao;
+package org.rs.app.meam.master.dao;
 
-import org.rs.app.master.UserMaster;
+import org.rs.app.meam.master.UserMaster;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

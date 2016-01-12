@@ -1,4 +1,4 @@
-package org.rs.app.master;
+package org.rs.app.meam.master;
 
 import java.io.Serializable;
 import javax.persistence.Column;

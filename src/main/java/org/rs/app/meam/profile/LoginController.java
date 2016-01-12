@@ -1,4 +1,4 @@
-package org.rs.app.profile;
+package org.rs.app.meam.profile;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -13,8 +13,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import org.apache.commons.io.IOUtils;
-import org.rs.app.master.UserMaster;
-import org.rs.app.master.dao.UserMasterRepo;
+import org.rs.app.meam.master.UserMaster;
+import org.rs.app.meam.master.dao.UserMasterRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

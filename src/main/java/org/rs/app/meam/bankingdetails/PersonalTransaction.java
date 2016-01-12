@@ -1,4 +1,4 @@
-package org.rs.app.bankingdetails;
+package org.rs.app.meam.bankingdetails;
 
 import java.math.BigDecimal;
 import java.util.Date;

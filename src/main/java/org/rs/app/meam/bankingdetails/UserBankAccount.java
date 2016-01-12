@@ -1,4 +1,4 @@
-package org.rs.app.bankingdetails;
+package org.rs.app.meam.bankingdetails;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;

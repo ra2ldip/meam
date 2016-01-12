@@ -1,6 +1,6 @@
-package org.rs.app.bankingdetails.dao;
+package org.rs.app.meam.bankingdetails.dao;
 
-import org.rs.app.bankingdetails.BankMaster;
+import org.rs.app.meam.bankingdetails.BankMaster;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

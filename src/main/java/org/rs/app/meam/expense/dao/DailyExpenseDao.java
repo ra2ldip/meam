@@ -1,9 +1,9 @@
-package org.rs.app.expense.dao;
+package org.rs.app.meam.expense.dao;
 
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.Date;
-import org.rs.app.expense.DailyExpense;
+import org.rs.app.meam.expense.DailyExpense;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
