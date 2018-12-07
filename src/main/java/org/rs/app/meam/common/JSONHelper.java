@@ -1,9 +1,7 @@
 package org.rs.app.meam.common;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import static javafx.scene.input.KeyCode.T;
 
 /**
  *

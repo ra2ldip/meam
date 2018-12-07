@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context antiJARLocking="true" path="">
-  <Resource driverClassName="org.apache.derby.jdbc.ClientDriver" maxActive="50" maxIdle="10" maxWait="50000" name="jdbc/OracleDS" password="meam" type="javax.sql.DataSource" url="jdbc:derby://localhost:1527/meam" username="meam"/>
+    <Resource driverClassName="org.apache.derby.jdbc.ClientDriver" maxActive="50" maxIdle="10" maxWait="50000" name="jdbc/OracleDS"
+              password="meam" type="javax.sql.DataSource" url="jdbc:derby://localhost:1527/meam" username="meam"/>
 </Context>

@@ -22,12 +22,12 @@ public class DailyExpense implements Serializable {
     private long id;
     private long userId;
     private Date date;
-    private int txnType;//ONLE?CASH?CHECQUE?NETBAMKING
+    private int txnType;//ONLE?CASH?CHECQUE?NETBANKING
     private int expType;
     private BigDecimal walletBalance;
     private BigDecimal expnse;
     private String expDetails;
-    private int activeState=ACTIVE;
+    private int activeState = ACTIVE;
 
     public DailyExpense() {
     }
